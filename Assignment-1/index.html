@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment 1</title>
+	<link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+	<table>
+		<thead>
+			<tr>
+				<td>SL.No.</td>
+				<td>First Name</td>
+				<td>Last Name</td>
+				<td>City</td>
+				<td>Country</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+				<td>John</td>
+				<td>Doe</td>
+				<td>New York</td>
+				<td>USA</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Jane</td>
+				<td>Doe</td>
+				<td>Los Angeles</td>
+				<td>USA</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>John</td>
+				<td>Smith</td>
+				<td>Detroit</td>
+				<td>USA</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Jane</td>
+				<td>Smith</td>
+				<td>Seattle</td>
+				<td>USA</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Jack</td>
+				<td>Doe</td>
+				<td>Las Vegas</td>
+				<td>USA</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="container">
+		<div id="data">
+			<input type="text" id="firstname" placeholder="Enter First Name">
+			<input type="text" id="lastname" placeholder="Enter Last Name">
+			<input type="text" id="city" placeholder="Enter City">
+			<input type="text" id="country" placeholder="Enter Country">
+			<button onclick="add()">Add row to bottom</button>
+			<button onclick="add(false)">Add row to top</button>
+		</div>
+	</div>
+
+	<script src="./script/script.js"></script>
+</body>
+
+</html>
